@@ -24,6 +24,7 @@ public class Frame7 extends javax.swing.JFrame {
     ResultSet rs;
     public Frame7() {
         initComponents();
+        // set date and bill no
         try{
                 Class.forName("org.gjt.mm.mysql.Driver");
                 con=DriverManager.getConnection("jdbc:mysql://localhost/oxy_login","root","");
